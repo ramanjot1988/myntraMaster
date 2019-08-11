@@ -16,6 +16,7 @@ public class WaterLoo {
 
 		// It will open URL in Browser
 		driver.get("https://uwaterloo.ca");
+		//I am a description of something
 		System.out.println(driver.findElement(By.xpath("(//span[@class='teaser'])[3]")).getText());
 
 	}
